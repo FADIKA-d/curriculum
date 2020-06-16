@@ -2,8 +2,8 @@
 
 <div>
 <slot></slot>
-<button @click.prevent="prevent">Précédent</button>
-<button @click.prevent="next">Suivant</button>
+<v-btn @click.prevent="prevent">Précédent</v-btn>
+<v-btn @click.prevent="next">Suivant</v-btn>
 </div>
 </template>
 

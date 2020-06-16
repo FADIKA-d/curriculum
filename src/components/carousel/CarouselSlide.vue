@@ -2,6 +2,7 @@
 <transition name="slide">
 <div v-if="visible">
   Index :  {{ index}}
+
 <slot></slot>
 
 </div>

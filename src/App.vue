@@ -1,14 +1,21 @@
 <template>
   <div>
+  <v-app-bar>
+  
+  </v-app-bar>
 <carousel>
 <carousel-slide>
   <div class="card"></div>
 </carousel-slide>
-<carousel-slide>Expériences</carousel-slide>
-<carousel-slide>Formations</carousel-slide>
-<carousel-slide>Compétences</carousel-slide>
-<carousel-slide>Réalisations</carousel-slide>
-<carousel-slide>Langues</carousel-slide>
+<carousel-slide>
+<v-card>
+<h1>Expériences</h1>
+</v-card>
+</carousel-slide>
+<carousel-slide><v-card><h1>Formations</h1></v-card></carousel-slide>
+<carousel-slide><v-card><h1>Compétences</h1></v-card></carousel-slide>
+<carousel-slide><v-card><h1>Réalisations</h1></v-card></carousel-slide>
+<carousel-slide><v-card><h1>Langues</h1></v-card></carousel-slide>
 </carousel>
 
   </div>
